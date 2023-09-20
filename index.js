@@ -6,7 +6,7 @@ let cors = require("cors");
 const dotenv=require('dotenv')
 dotenv.config()
 
-const port=process.env.REACT_APP_PORT
+const port=process.env.PORT
 
 app.listen(port,()=>{
     console.log(`Server running at http://localhost:${port}`)
